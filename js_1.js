@@ -121,6 +121,7 @@ console.log("\n// class");
 // Person.prototype.getBirthYear = function(){
 //     return this.dob.getFullYear();
 // }
+
 class Person {
   constructor(firstName, lastName, dob) {
     this.firstName = firstName;
