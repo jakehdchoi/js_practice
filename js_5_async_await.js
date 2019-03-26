@@ -51,7 +51,7 @@ async function getUserFriends() {
     let promises = friendIDs.map(id => {
       return fetchJSON(`/users/${id}`);
     });
-    let friedns = await Promise.all(promises);
+    let friends = await Promise.all(promises);
     console.log(friends);
   } catch (error) {
     console.log("An error occured", error);
